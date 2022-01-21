@@ -1,0 +1,24 @@
+.pagication_display{
+    list-style: none!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pagication_display li{
+    background-color: black;
+    color: #fff;
+    padding: 0.6rem;
+    margin:0 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagication_display li.active{
+    background-color: grey;
+    color: black;
+    pointer-events: none;
+}
+.main-parent{
+    height: 80vh;
+}
